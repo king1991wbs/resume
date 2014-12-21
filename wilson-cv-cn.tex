@@ -1,0 +1,90 @@
+﻿\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+\usepackage{xunicode, xltxtra}
+\XeTeXlinebreaklocale "zh"
+\widowpenalty=10000
+
+%\setmainfont[Mapping=tex-text]{文泉驿正黑}
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{CJKutf8}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+\setmainfont[Mapping=tex-text]{Times New Roman}         %Times New Roman  Arial
+\setsansfont[Mapping=tex-text]{微软雅黑}
+\CJKtilde
+
+% personal data
+\firstname{王保生}
+\familyname{}
+\title{}               % optional, remove the line if not wanted
+
+\mobile{+86 18721962910}                    % optional, remove the line if not wanted
+\email{king1991wbs@gmail.com}                      % optional, remove the line if not wanted
+%% \quote{\small{``Do what you fear, and the death of fear is certain.''\\-- Anthony Robbins}}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\maketitle
+
+\section{教育背景}
+\cventry{2013至今}{硕士}{同济大学计算机系}{将于 2016 年毕业} {}{} % 第3到第6 编码可留白
+\cventry{2009--2013}{本科}{兰州交通大学计算机系}{年级第一}{}{}{}
+
+%\section{毕业论文}
+%\cvitem{题目}{\emph{题目}}
+%\cvitem{导师}{导师}
+%\cvitem{说明}{\small 论文简介}
+
+\section{社区}
+\cventry{Blog}{\url{king1991wbs.github.com/wilson}}{技术博客}{}{}{}
+\cventry{StackOverflow}{\url{stackoverflow.com/users/3322579/wilson}}{}{}{}{}
+\cventry{GitHub}{\url{github.com/king1991wbs}}{参与和创建过多个开源项目}{}{}{}
+
+\section{项目经历}
+\renewcommand{\baselinestretch}{1.2}
+
+\cventry{2014~至今}
+{机械臂焊接}
+{C++, JAVA WEB, PYTHON, HTML}
+{创业项目}{}
+{实验室项目，希望研发一套机器，应用计算机视觉的相关知识利用摄像头自动识别焊缝并对焊缝进行坐标定位，指挥机械臂进行焊接，并在焊接过程中可以做到自动焊缝纠偏。为了实验和操作的便捷性，开发一套iOS app 和WEB 平台来通过手持设备灵活对机器进行操作。}
+
+\vspace*{0.2\baselineskip}
+\cventry{2013~至今}
+{敦煌壁画拼接}{}
+{研究项目}{}
+{敦煌壁画是国家宝贵的艺术遗产，保护和保存敦煌壁画是必要工作。敦煌研究院拍摄了大量壁画图像，我们的工作就是利用图像拼接技术将这些大尺度高质量图像以窟（敦煌壁画分布在不同的石窟当中）为单位拼接起来。}
+
+\section{奖项}
+\cventry{2013 }{保送同济研究生}{}{}{}{}
+\cventry{2012 }{万侨奖学金 校二等奖学金}{}{}{}{}
+\cventry{2009-2011}{国家励志奖学金 校一等奖学金}{}{}{}{}
+
+\section{技能}
+\cventry{语言}{C++}{C, JAVA, PYTHON, JSP-SERVLET, TEX}{}{}{}
+%\cventry{内核}{Linux, Xen, Android}{}{}{}{}
+%% \cventry{应用开发}{Ruby on Rails, iOS}{}{}{}{}
+\cventry{平台}{windows}{linux(fedora/ubuntu)}{}{}{}
+\cventry{英语}{CET-6}{流利的英语读写能力}{}{}{}
+
+\section{个人兴趣}
+\cvitem{体育：}{慢跑，小球（羽毛球，乒乓球等）}
+\cvitem{生活：}{吃货一枚，行赏厨艺尽管厨艺不精}
+\cvitem{小清新：}{音乐，电影，读书，素描小白正在入门}
+
+
+% \cvline{Photography}{\small Digital photography is my newest hobby.}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}
