@@ -12,79 +12,61 @@
 \recomputelengths                             % required when changes are made to page layout lengths
 
 % personal data
-\firstname{BaoSheng}
+\firstname{Baosheng}
 \familyname{Wang}
 \title{Curriculum Vitae}
 \mobile{+86 18721962910}
 \email{wilson\_91@foxmail.com}
-%% \quote{``Do what you fear, and the death of fear is certain.''\\-- Anthony Robbins}
 
-%\phone{(312) 413-8265}                      % optional, remove the line if not wanted
-%\fax{312 996 1491}                          % optional, remove the line if not wanted
-%\photo[64pt]{avatar.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
 
 \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
-%% \renewcommand*{\sectionfont}{\LARGE\sffamily\monospace\slshape}
-%% \renewcommand*\addressfont{\fontfamily{pzc}\selectfont}
-%% \renewcommand*\sectionfont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
 
 \begin{document}
 \maketitle
 
 \section{Education}
-\cventry{2013--Present}{MS in Computer Vision, Supervisor: Weidong Zhao}{School of Electronic and Information Science, TongJi University}{expected 2016}{}{}
-\cventry{2009--2013}{BA in Computer Science and Technology}{School of Electronic and Information Science, LanZhou JiaoTong University}{top1}{}{}
+\cventry{Sep 2013 -- Mar 2016}{MS in Computer Vision}{Tongji University}{Shanghai, China}{Supervisor: Weidong Zhao}{}
+\cventry{Sep 2009 -- Jun 2013}{BA in Computer Science and Technology}{Lanzhou Jiaotong University}{Lanzhou, China}{Rank: 1st}{}
 
 %\section{Master thesis}
 %\cvline{title}{\emph{Title}}
 %\cvline{supervisors}{Supervisors}
 %\cvline{description}{\small Short thesis abstract}
 
-%%\section{Internship}
-%%\cventry{2012}{Summer Analyst at Morgan Stanley}{E-Trading Infrastructure Department}{}{}{Designed and implemented a BitTorrent based system to speed up trading data precache}
-%%\cventry{2011}{Summer internship at EMC Research Shanghai}{}{}{}{Researched on I/O side channel attack in a share-host environment}
-
-\section{Community}
-\cventry{Blog}{\url{https://king1991wbs.github.com/wilson}}{}{}{}{}
-\cventry{Stack Overflow}{\url{https://stackoverflow.com/users/3322579/wilson}}{}{}{}{}
-\cventry{GitHub}{\url{https://github.com/king1991wbs}}{}{}{}{}
-
-\section{Internship}
-\cventry{2015.06--2015.09}{Microsoft}{Bing Satori}{WEB API,RESTful,C\#,SCOPE}{}
-{Satori is one of the teams in Bing search center, mainly in charge of data processing jobs.My team is focused on web data extraction and analysis.During my internship, i mainly done three tasks.Firstly,implement Suggestion Service(SS): Extract data from different data sources based on Url requests,and return the result to caller.Secondly,Performance improvement of WrapStarAPI:SS provide two different Service:request data and save data.But problem is that it cost too much time for data request.After analysis of the source code,i found the bottleneck was WrapStarAPI library.Then through optimizing the source code,i improved the performance of  SS.Thirdly,Data processing jobs:Cosmos is the big data processing platform if Microsoft, manipulated through SCOPE Script.By using these tool, i also done some easy big data processing jobs.}
-
-\cventry{2015.01--2015.03}{HiScene}{Algorithm}{C/C++,OPENCV}{}{My job is to assit mentor to  design and implement image processing algorithms used in their app,besides in charge of OCR DEMO implementation}
 
 
-\section{Project Experience}
-%% \subsection{Research Projects}
+\section{Work Experience}
+\cventry{Mar 2016 -- Present}{Senior Applied Scientist}{Microsoft}{China}{Bing Metrics Team}
+{\begin{itemize}
+    \item Leveraging SOTA ML/DL/LLM algorithms to build and optimize core product features.
+    \item Led a team to architect and build an offline evaluation pipeline from scratch by fine-tuning open-source LLMs (e.g., Qwen), achieving quality parity with human crowd judges. The system serves hundreds of developers and has generated millions of dollars in cost savings.
+    \item Spearheading the development of next-generation offline evaluation metrics utilizing advanced LLMs (e.g., GPT-5) to supersede legacy systems.
+\end{itemize}}
 
-\cventry{2014--present}
-{steel safe welding based on Robot Arm}
-{C++, JAVA WEB, PYTHON, HTML}
-{Startup Project}{}
-{It's a project in our lab,leading by Professor zhao.All we want is to use the computer vision technology to track the location of the weld joint,and feed back to PC,then PC will direct the robot arm done the welding work.For the convenience of experiment we have developed an iOS app.My job is in charge of computer vision part,means find the weld joint.}
+\cventry{Jun 2015 -- Sep 2015}{Software Engineer Intern}{Microsoft}{China}{Bing Satori Team}
+{Developed web data extraction pipelines and analysis tools for Satori, a core data processing team within the Bing search center. Utilized C\#, Web API, and SCOPE.}
 
-\vspace*{0.2\baselineskip}
-\cventry{2013--present}
-{Dunhuang frescoes image stitching}{}
-{Research Project}{}
-{Dunhuang frescoes is a great treasure left by ancient chinese,it is necessary to do some work to protect it.Our job is to use existing image processing algorithms and invent new algorithms, which is more efficient and powerful, to stitch those images into a full image}
+\cventry{Jan 2015 -- Mar 2015}{Algorithm Intern}{HiScene}{China}{Algorithm Team}
+{Co-designed and implemented image processing algorithms for mobile applications using C++ and OpenCV. Led the implementation of an OCR demo.}
 
 
-\section{Awards}
-\cventry{2013 }{Recommended to pursue master degree in TongJi University}{}{}{}{}
-\cventry{2012 }{WanQiaoStar Scholarship, The Second Prize Scholarship}{}{}{}{}
-\cventry{2009-2011}{National Encouragement Scholarship, The First Prize Scholarship}{}{}{}{}
+
+\section{Honors \& Awards}
+\cventry{2013}{Selected for Graduate Admission Waiver (Top 5\%)}{Tongji University}{}{}{}
+\cventry{2012}{WanQiaoStar Scholarship, Second Prize Scholarship}{}{}{}{}
+\cventry{2009--2011}{National Encouragement Scholarship, First Prize Scholarship}{}{}{}{}
 
 \section{Skills}
-%\cventry{Languages}{Ruby = C = Java > Python > C++}{}{}{}{}
-\cventry{Language}{C++}{C, C\#, OPENCV, TEX, GCC, GDB}{}{}{}
-%\cventry{Language}{C++}{C, JAVA, PYTHON, OPENCV, JSP-SERVLET, TEX, GCC, GDB}{}{}{}
-\cventry{Platform}{windows}{linux(fedora/ubuntu)}{}{}{}
-%% \cventry{Application Dev}{Ruby on Rails, iOS development}{}{}{}{}
-\cventry{English}{CET-6}{fluent in spoken and written English}{}{}{}
+\cventry{Programming}{Python, C\#, C++, C, SCOPE}{}{}{}{}
+\cventry{ML Frameworks}{PyTorch, Hugging Face, LLMs}{}{}{}{}
+\cventry{Tools \& Cloud}{Azure, Cosmos, Git, OpenCV, LaTeX}{}{}{}{}
+\cventry{Languages}{English (Fluent), Chinese (Native)}{}{}{}{}
+
+\section{Community}
+\cventry{Blog}{\url{https://king1991wbs.github.io/wilson}}{}{}{}{}
+\cventry{Stack Overflow}{\url{https://stackoverflow.com/users/3322579/wilson}}{}{}{}{}
+\cventry{GitHub}{\url{https://github.com/king1991wbs}}{}{}{}{}
 
 %\section{Hobbies}
 %\cvitem{Sports:}{Jogging,Small Ball(Badminton,PingPang etc.)}
@@ -93,14 +75,5 @@
 % \closesection{}                   % needed to renewcommands
 % \renewcommand{\listitemsymbol}{-} % change the symbol for lists
 
-%\section{Extra 1}
-%\cvlistitem{Item 1}
-%\cvlistitem{Item 2}
-%\cvlistitem[+]{Item 3}            % optional other symbol
-
-%\section{Extra 2}
-%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
-%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
-%cvlistdoubleitem[\Neutral]{Item 3}{}
 
 \end{document}
